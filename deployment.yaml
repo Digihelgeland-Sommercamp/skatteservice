@@ -1,0 +1,19 @@
+apiVersion: apps/v1
+kind: Deployment
+metadata:
+  name: skattservice
+spec:
+  replicas: 1
+  selector:
+    matchLabels:
+      app: skattservice
+  template:
+    metadata:
+      labels:
+        app: skattservice
+    spec:
+      containers:
+      - name: skattservice
+        image: 
+        ports:
+        - containerPort: 5000
