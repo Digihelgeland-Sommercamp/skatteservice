@@ -14,6 +14,6 @@ spec:
     spec:
       containers:
       - name: skattservice
-        image: 
+        image: johannesdigdir/skatt_service:37ffb5c99ff59c8673ac89e794c4b2873d18b8ee
         ports:
         - containerPort: 5000

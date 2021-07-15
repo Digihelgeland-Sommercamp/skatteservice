@@ -19,7 +19,7 @@ app.register_error_handler(ItemNotFound, 500)
 #create routes
 @app.route("/")
 def root():
-    return "<p>Root route!</p>"
+    return "<p>Root route! :D:D:D</p>"
 
 @app.route("/skattemeldinger")
 def get_all_skattemeldinger():
