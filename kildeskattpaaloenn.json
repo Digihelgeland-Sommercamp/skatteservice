@@ -1,0 +1,17 @@
+{
+    "kpl": 
+    [
+        {
+            "personidentifikator": "12345678910",
+            "inntektsaar": "2019",
+            "skjermet": false,
+            "kildeskattPaaLoennNettoinntekt": 12345,
+            "kildeskattPaaLoennNettoformue": 0,
+            "kildeskattPaaLoennBetaltSkattOgAvgift": 11973,
+            "kildeskattPaaLoennPersoninntektLoenn": 24587,
+            "kildeskattPaaLoennPersoninntektBarePensjonsdel": 123,
+            "kildeskattPaaLoennSkatteregnskapskommune": "2312",
+            "kildeskattPaaLoennSkatteklasse": "1"
+          }
+    ]
+}
