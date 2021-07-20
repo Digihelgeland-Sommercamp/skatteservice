@@ -1,11 +1,13 @@
 from flask import Flask, request
 import json
+import os
 import werkzeug
 
 from skatt_exceptions import ItemNotFound
 
 #Hent ut skattemeldinger.json
-f = open('skattemeldinger.json',)
+__location__ = os.path.realpath(os.path.join(os.getcwd(), os.path.dirname(__file__)))
+f = open(os.path.join(__location__, 'skattemeldinger.json'))
 skatter = json.load(f)
 f.close()
 
