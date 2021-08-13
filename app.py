@@ -9,14 +9,12 @@ f = open('skattemeldinger.json',)
 skatter = json.load(f)
 f.close()
 
-#Create app
 app = Flask(__name__)
 
 #Register exceptions
 app.register_error_handler(ItemNotFound, 500)
 
 
-#create routes
 @app.route("/")
 def root():
     return "<p>Root route! :D:D:D</p>"
@@ -35,8 +33,6 @@ def get_skattemelding(inntektsaar=None, personidentifikator=None):
         ): return json.dumps(k)
 
     return ItemNotFound()
-
-
 
 
 
