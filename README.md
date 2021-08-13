@@ -11,7 +11,7 @@ Every route can be found in [app.py](https://github.com/Digihelgeland-Sommercamp
 Each route below links to the OpenAPI specification on swaggerhub.
 
 * [GET] [/skattemeldinger](https://app.swaggerhub.com/apis/emilwhj/Skatteservice/0.1#/default/get_skattemeldinger)
-* [GET] [/get_skattemelding/<inntektsaar>/<personidentifikator>](https://app.swaggerhub.com/apis/emilwhj/Skatteservice/0.1#/default/get_get_skattemelding__inntektsaar___personidentifikator_)
+* [GET] [/get_skattemelding/\<inntektsaar\>/\<personidentifikator\>](https://app.swaggerhub.com/apis/emilwhj/Skatteservice/0.1#/default/get_get_skattemelding__inntektsaar___personidentifikator_)
 
 ### Installation
 This service is intended to run in a kubernetes cluster with the micro services it is coupled with, mentioned at the top of this document. It makes no sense for this service to run alone.
